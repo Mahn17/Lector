@@ -23,16 +23,6 @@ void agregar_Arreglo(char *a){
     }
 }
 
-// char primero(int a){
-//     const char *palabras[] = {"False", "await", "else", "import", "pass",
-//                           "None", "break", "except", "in", "raise",
-//                           "True", "class", "finally", "is", "return",
-//                           "and", "continue", "for", "lambda", "try",
-//                           "as", "def", "from", "nonlocal", "while",
-//                           "assert", "del", "global", "not", "with",
-//                           "async", "elif", "if", "or", "yield"};
-//     return palabras[a][0];
-// }
 void q1(char car, char *cadena)
 {
     
@@ -70,13 +60,13 @@ void q2(char car, char *cadena,int a, int b)
     // }
     if (arreglo[b]!=NULL)
     {
-        if (car == arreglo[b][a]&&arreglo[b][a]!=NULL){//cuando es null manda al else a pesar 
-            if (car==NULL)
+        if (car == arreglo[b][a]){
+            if (car==NULL&&arreglo[b][a-1]==cadena[a-1])
             {
-                if ((sizeof(arreglo[b]) / sizeof(arreglo[1][1]))==(sizeof(cadena)/sizeof(cadena[1])))
-                {
+                //if ((sizeof(arreglo[b]) / sizeof(arreglo[1][1]))==(sizeof(cadena)/sizeof(cadena[1])))
+                //{
                     printf("se identifico: %s\n",arreglo[b]);
-                }
+                //}
                 
                 
             }else{
@@ -99,7 +89,6 @@ void q2(char car, char *cadena,int a, int b)
     //             printf("se identifico: %s\n",arreglo[b]);
     //         }
             
-            
     //     }else{
     //         q2(cadena[a+1], cadena, a+1, b);
     //     }
@@ -119,7 +108,7 @@ void q2(char car, char *cadena,int a, int b)
 int main()
 {
 
-    char cadena[] = "asy";
+    char cadena[] = "an";
 
     if (isdigit((unsigned char)cadena[0]))
     {
