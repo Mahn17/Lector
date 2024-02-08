@@ -1,0 +1,13 @@
+hola mundo!
+#cafe
+pm
+#algo
+ls
+"""cal
+asd
+"
+"z
+"
+x
+"""
+fin
