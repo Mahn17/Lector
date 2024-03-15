@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 
-const char *palabras[] = {"False", "await", "else","async", "import", "pass",
-                          "None", "break", "except", "in", "raise",
-                          "True", "class", "finally", "is", "return",
-                          "and", "continue", "for", "lambda", "try",
-                          "as", "def", "from", "nonlocal", "while",
-                          "assert", "del", "global", "not", "with",
-                           "elif", "if", "or", "yield"};
+const char *palabras[] = {"False", "await", "else","async", "import", 
+                        "pass", "None", "break", "except", "raise",
+                        "True", "class", "finally", "is", "return",
+                        "and", "continue", "for", "lambda", "try",
+                        "as", "def", "from", "nonlocal", "while",
+                        "assert", "del", "global", "not", "with",
+                        "elif", "if", "or", "yield", "in"};
                           
 char *arreglo[] = {"","","","","",""};
 
@@ -108,7 +108,7 @@ void q2(char car, char *cadena,int a, int b)
 int main()
 {
 
-    char cadena[] = "an";
+    char cadena[] = "in";
 
     if (isdigit((unsigned char)cadena[0]))
     {
